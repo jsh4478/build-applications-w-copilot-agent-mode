@@ -8,7 +8,7 @@ import leaderboardRouter from './routes/leaderboard.js';
 import workoutsRouter from './routes/workouts.js';
 
 const app = express();
-const port = Number(process.env.PORT || 8000);
+const port = 8000;
 
 // Codespaces-aware base URL
 const codespaceName = process.env.CODESPACE_NAME;
